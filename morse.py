@@ -36,7 +36,8 @@ def run():
       break
 
     try:
-      print CODE2CHAR[_input.replace('0', '.').replace('1', '-')]
+      for token in _input.split():
+        print CODE2CHAR[token.replace('0', '.').replace('1', '-')]
     except Exception as e:
       print "Invalid code: ", e
       continue
