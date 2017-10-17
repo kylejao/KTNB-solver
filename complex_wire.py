@@ -5,9 +5,9 @@ HELP = """
     [qq] Quit
     [rr] Reset
 
-    Setting (Last digit of serial#, parallel port, #batteries): <s<0-9>|pp|b<0-9>> ...  (order doesn't matter)
+    Setting (Last digit of serial#, parallel ports, #batteries): <s<0-9>|pp|b<0-9>> ...  (order doesn't matter)
         For last digit of serial#, use 's' followed by a digit.
-        For parallel port, use 'pp'. 
+        For parallel ports, the default is no parallel port; use 'pp' to indicate having parallel ports.
         For #batteries, use 'b' followed by a digit.
         Example: 'l8 b4' means last digit 8, no parallel port, and 4 batteries.
     Input (Wire colors): <w|b|r|p|d|x>... ...
